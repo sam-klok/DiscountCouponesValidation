@@ -1,0 +1,13 @@
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.csprojAssemblyReference.cache
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.AssemblyInfoInputs.cache
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.AssemblyInfo.cs
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.csproj.CoreCompileInputs.cache
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.exe
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.deps.json
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.runtimeconfig.json
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.runtimeconfig.dev.json
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.dll
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\bin\Debug\netcoreapp3.1\DiscountCouponesValidation.pdb
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.dll
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.pdb
+C:\Users\SKlok\source\repos\DiscountCouponesValidation\DiscountCouponesValidation\obj\Debug\netcoreapp3.1\DiscountCouponesValidation.genruntimeconfig.cache
