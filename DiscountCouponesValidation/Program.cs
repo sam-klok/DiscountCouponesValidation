@@ -10,7 +10,8 @@ namespace DiscountCouponesValidation
     {
         static void Main(string[] args)
         {
-            var discounts = new List<string> { "a", "abba", "abca" };
+            var discounts = new List<string> { "a","abba","abca","acac","aabb","aabbx","caabbc" };
+            //var discounts = new List<string> { "caabbc" };
             Print(findValidDiscountCoupons(discounts));
 
             Console.WriteLine("press any key..");
@@ -20,15 +21,15 @@ namespace DiscountCouponesValidation
         public static List<int> findValidDiscountCoupons(List<string> discounts)
         {
             var r = new List<int>(); // result
-            foreach (var d in discounts)
+            foreach (var s in discounts)
             {
-                if (d == "")
+                if (s == "")
                     r.Add(1);
-                else if (d.Length == 1)
-                    r.Add(1);
+                else if (s.Length == 1)
+                    r.Add(0);
                 else
                 {
-                    if (isAllCharCountEven(d))
+                    if (isAllCharCountEven(s) && areCharPairsValid(s))
                         r.Add(1);
                     else
                         r.Add(0);
@@ -36,6 +37,33 @@ namespace DiscountCouponesValidation
             }
 
             return r;
+        }
+
+        public static bool areCharPairsValid(string s)
+        {
+            char[] a = s.ToCharArray();
+
+            int y = a.Length;
+
+            for (int x = 0; x < y; x++)
+            {
+                if (x + 1 < y && a[x] == a[x + 1])
+                {
+                    // two valid characteres together
+                    x++;
+                }
+                else if (a[x] == a[y - 1])
+                {
+                    // chars at the front and the end of array match
+                    y--;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         public static bool isAllCharCountEven(string s)
